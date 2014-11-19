@@ -1,38 +1,21 @@
 header
 {
-    background: #98FF98;
 }
 
 footer
 {
-    background: salmon;
-}
-
-footer>nav
-{
-    margin: auto auto;
-    width: 50%;
-}
-
-img#main
-{
-    float: left;
 }
 
 section#main
 {
-    margin: auto auto;
-    width: 60%;
 }
 
-section#main>article
+/* Align nav links horizontally */
+nav>ul
 {
-    background: darkblue;
 }
 
-h2
+nav>img
 {
-    color: white;
-    font-size: 3.0em;
-    text-align: right;
+    float: left;
 }
