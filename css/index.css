@@ -52,6 +52,25 @@ footer>nav
 {
     margin: auto auto;
     width: 50%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    a:link {
+    text-decoration: none;
+    }
+}
+
+footer a:link
+{
+    text-decoration: none;
+    color: #e9e233;
+}
+
+footer a:visited
+{
+    color: #4f3b26;
+}
+
+
 }
 
 img#main
