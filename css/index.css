@@ -71,8 +71,8 @@ header li
     float:right;
     display: inline;
     padding: 0px 3px 0px 3px;
-	background-color: #cc2576;
-    box-shadow: 0px 3px 7px grey;
+	/*background-color: #cc2576;
+    box-shadow: 0px 3px 7px grey; */
     align-items:  center;
 }
 
@@ -116,6 +116,9 @@ section#main
 section#main img
 {
     float: left;
+    padding: 5px 5px 5px 5px;
+    width: 20%;
+    height; 20%;
 }
 
 h2
@@ -131,6 +134,11 @@ p
     color: #4f3b26;
 }
 
+#main p a:link
+{
+		color: #4f3b26;
+
+}
 #signup
 {
     margin: 0px auto;
@@ -138,3 +146,22 @@ p
     font-family: coreCircus;
     text-align: center;
 }
+
+#signup a:link{
+	text-decoration: none;
+	color: #4f3b26;
+}
+
+#signup a:visited{
+	text-decoration: none;
+	color: #e9e233;
+}
+
+#signup a:hover
+{
+	text-decoration: none;
+	color: #6A5E52;
+
+
+}
+
