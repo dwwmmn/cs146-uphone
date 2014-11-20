@@ -1,0 +1,116 @@
+﻿
+
+
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo
+{
+	max-height: 4%;
+	max-width: 4%	
+
+}
+
+@font-face
+{
+	font-family: coreCircus;
+	src: url('media/corecircus.otf')
+}
+
+body 
+{
+    background-color: #65AD8B;
+}
+header>h1
+{
+	font-family: coreCircus;
+	font-size: 5.5em;
+	color: #57c25b;
+}
+
+header>nav>ul{
+    text-align: right;
+}
+
+header>img{
+    float: left;
+}
+
+header
+{
+	background-color: #cc2576;
+    box-shadow: 5px 5px 5px gray;
+    align-items:  center;
+}
+
+footer
+{
+    background: #6545d7;
+    box-shadow: 0px -1px 7px #8272B9;
+
+}
+
+footer>nav
+{
+    margin: auto auto;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+footer a:link
+{
+    text-decoration: none;
+    color: #e9e233;
+}
+
+footer a:visited
+{
+    color: #4f3b26;
+}
+
+
+}
+
+img#main
+{
+    width: 40%;
+    float: left;
+}
+
+section#main
+{
+    margin: auto auto;
+    width: 60%;
+}
+
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    font-size: 3.0em;
+}
+
+p
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+}
+
+#signup{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: coreCircus;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+

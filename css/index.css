@@ -57,6 +57,7 @@ header>img
 
 header ul
 {
+<<<<<<< HEAD
     list-style: none;
     display: inline;
 }
@@ -66,17 +67,40 @@ header li
     float:right;
     display: inline;
     padding: 0px 3px 0px 3px;
+=======
+	background-color: #cc2576;
+    box-shadow: 0px 3px 7px grey;
+    align-items:  center;
+>>>>>>> 18a6702ad8988d7ca806e8ff1cf121fea8dd335c
 }
 
 footer
 {
     background: #6545d7;
+    box-shadow: 0px -1px 7px #8272B9;
+
 }
 
 footer>nav
 {
     margin: auto auto;
     width: 50%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+footer a:link
+{
+    text-decoration: none;
+    color: #e9e233;
+}
+
+footer a:visited
+{
+    color: #4f3b26;
+}
+
+
 }
 
 img#main
@@ -91,7 +115,10 @@ section#main
     width: 60%;
 }
 
+<<<<<<< HEAD
 section#main img
+=======
+>>>>>>> 18a6702ad8988d7ca806e8ff1cf121fea8dd335c
 
 h2
 {
