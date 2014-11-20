@@ -46,10 +46,11 @@ header
 {
 	background-color: #cc2576;
     box-shadow: 5px 5px 5px gray;
-    text-align: center;
+    text-align: left;
+    
 }
 
-header section
+header>section
 {
     margin: auto auto;
 }
@@ -58,7 +59,7 @@ header>section>img
 {
     padding: 3px 3px 3px 3px;
     float: left;
-    margin: 1.5em 0 0 21em;
+    margin: 1.5em 0 0 18em;
 }
 
 header ul
@@ -166,7 +167,9 @@ p
     font-size: 4.5em;
     font-family: coreCircus;
     position: absolute;
-    bottom: 80px;
+    padding: 0 0 2% 0;
+    bottom: 10%;
+    left: 25%;
     
 }
 
