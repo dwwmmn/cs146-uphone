@@ -59,19 +59,14 @@ header>section>img
 {
     padding: 3px 3px 3px 3px;
     float: left;
-<<<<<<< HEAD
-    margin: 1% 0 0 20%;
-=======
     margin: 1.5em 0 0 18em;
     width: 90%;
->>>>>>> 91a3d34d0e1bec6aca71b593cc034294eb4ca0d3
 }
 
 header ul
 {
     list-style: none;
     display: inline;
-    
 }
 
 header li
