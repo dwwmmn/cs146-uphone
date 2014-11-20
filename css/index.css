@@ -1,49 +1,42 @@
 /* MAIN */
-img#main
-{
+img#main {
     width: 40%;
     float: left;
 }
 
-section#main
-{
+section#main {
     margin: auto auto;
     width: 50%;
     padding: 20px 20px 100px 20px;
 }
 
-section#main img
-{
+section#main img {
     float: left;
-    padding: 5px 5px 5px 5px;
-    width: 20%;
-    height: 20%;
+    padding: 5px 10px 5px 10px;
+    max-width: 30%;
+    min-width: 10%;
 }
 
-h2
-{
+h2 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 3.0em;
 }
 
-p
-{
+p {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     padding: 20px 0px 20px 0px;
 }
 
-#signup
-{
+#signup {
     font-size: 4.5em;
     font-family: coreCircus;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
 
-#signup a:link
-{
+#signup a:link {
 	text-decoration: none;
 	color: #4f3b26;
 }
@@ -53,20 +46,17 @@ p
 	color: #e9e233;
 }
 
-#signup a:hover
-{
+#signup a:hover {
 	text-decoration: none;
 	color: #6A5E52;
 }
 
-#main p a:link
-{
+#main p a:link {
     color: #4f3b26;
     text-decoration: underline;
 }
 
-#main p a:visited
-{
+#main p a:visited {
     color: #6A5E52;
     text-decoration: underline;
 }
@@ -74,21 +64,4 @@ p
 
 /* RESPONSIVE */
 
-/* small */
-@media all and (max-width: 500px)
-{
-    #signup
-    {
-        font-size: 3.5em;
-    }
-}
-
-/* medium */
-@media all and (min-width:500px) and (max-width: 1000px)
-{
-    #signup
-    {
-        font-size: 4em;
-    }
-}
 /* END RESPONSIVE */

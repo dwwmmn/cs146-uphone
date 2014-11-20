@@ -1,34 +1,29 @@
 ﻿/* MAIN */
-img#main
-{
+img#main {
     width: 40%;
     float: left;
 }
 
-section#main
-{
+section#main {
     margin: auto auto;
     width: 50%;
     padding: 20px 20px 100px 20px;
 }
 
-section#main img
-{
+section#main img {
     float: left;
     padding: 5px 5px 5px 5px;
     width: 20%;
     height; 20%;
 }
 
-h2
-{
+h2 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 3.0em;
 }
 
-p
-{
+p {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     padding: 20px 0px 20px 0px;
@@ -37,13 +32,4 @@ p
 
 /* RESPONSIVE */
 
-/* small */
-@media all and (max-width: 500px)
-{
-}
-
-/* medium */
-@media all and (min-width:500px) and (max-width: 1000px)
-{
-}
 /* END RESPONSIVE */
