@@ -1,23 +1,66 @@
+@font-face
+{
+	font-family: coreCircus;
+	src: url('media/corecircus.otf')
+}
+
+body 
+{
+    background-color: #33A56E;
+}
+header>h1
+{
+	font-family: coreCircus;
+	font-size: 5.5em;
+	color: #57c25b;
+	text-align: center;
+}
+
 header
 {
+	background-color: #cc2576;
 }
+
+
 
 footer
 {
+    background: salmon;
 }
 
-section#main
+footer>nav
 {
+    margin: auto auto;
+    width: 50%;
 }
 
-/* Align nav links horizontally */
-nav>ul
-{
-}
-
-nav>img
+img#main
 {
     float: left;
 }
 
+section#main
+{
+    margin: auto auto;
+    width: 60%;
+}
+
+section#main>article
+{
+    background: #ef90b9;
+}
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    font-size: 3.0em;
+    text-align: right;
+}
+
+p
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+}
 
