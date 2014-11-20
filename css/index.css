@@ -16,13 +16,10 @@ header>h1
 	text-align: center;
 }
 
-<<<<<<< HEAD
 header>nav>ul{
     text-align: right;
 }
 
-=======
->>>>>>> fa06b8813b4d1ee49ef30d6af427c0594efaa107
 header
 {
 	background-color: #cc2576;
@@ -32,8 +29,6 @@ header
     box-shadow: 5px 5px 5px gray;
 >>>>>>> origin/master
 }
-
-
 
 footer
 {
@@ -48,10 +43,7 @@ footer>nav
 
 img#main
 {
-<<<<<<< HEAD
     width: 50%;
-=======
->>>>>>> fa06b8813b4d1ee49ef30d6af427c0594efaa107
     float: left;
 }
 
@@ -79,7 +71,6 @@ p
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
 }
-<<<<<<< HEAD
 
 #signup{
     text-align: center;
@@ -91,6 +82,4 @@ li{
     list-style: none;
     display: inline;
 }
-=======
->>>>>>> fa06b8813b4d1ee49ef30d6af427c0594efaa107
 
