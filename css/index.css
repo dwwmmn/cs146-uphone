@@ -57,7 +57,6 @@ header>img
 
 header ul
 {
-<<<<<<< HEAD
     list-style: none;
     display: inline;
 }
@@ -67,11 +66,9 @@ header li
     float:right;
     display: inline;
     padding: 0px 3px 0px 3px;
-=======
 	background-color: #cc2576;
     box-shadow: 0px 3px 7px grey;
     align-items:  center;
->>>>>>> 18a6702ad8988d7ca806e8ff1cf121fea8dd335c
 }
 
 footer
@@ -115,10 +112,9 @@ section#main
     width: 60%;
 }
 
-<<<<<<< HEAD
 section#main img
-=======
->>>>>>> 18a6702ad8988d7ca806e8ff1cf121fea8dd335c
+{
+}
 
 h2
 {
