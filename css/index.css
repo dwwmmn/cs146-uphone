@@ -168,11 +168,7 @@ p
     font-size: 4.5em;
     font-family: coreCircus;
     text-align: center;
-    /*position: absolute;
-    padding: 0 0 2% 0;
-    bottom: 10%;
-    left: 25%; */
-    
+    padding: 10px 10px 10px 10px;
 }
 
 #signup a:link{
