@@ -62,8 +62,8 @@ header li
     float:right;
     display: inline;
     padding: 0px 3px 0px 3px;
-	background-color: #cc2576;
-    box-shadow: 0px 3px 7px grey;
+	/*background-color: #cc2576;
+    box-shadow: 0px 3px 7px grey; */
     align-items:  center;
 }
 
