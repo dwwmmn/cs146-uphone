@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+html, body
+{
+    width: 100%;
+}
+
 #logo
 {
 	max-height: 4%;
@@ -21,23 +26,32 @@ body
     background-color: #65AD8B;
 }
 
-
-header>h1
+header h1
 {
 	font-family: coreCircus;
 	font-size: 5.5em;
 	color: #57c25b;
 }
 
-header li
+header
 {
-    float:right;
-    display: inline;
-    padding: 0px 3px 0px 3px;
+	background-color: #cc2576;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+}
+
+header>section
+{
+    margin: auto auto;
 }
 
 header>img
 {
+    padding: 3px 3px 3px 3px;
+    /* position: relative;
+    float: left;
+    vertical-align: middle;
+    */
     float: left;
 }
 
@@ -47,11 +61,11 @@ header ul
     display: inline;
 }
 
-header
+header li
 {
-	background-color: #cc2576;
-    box-shadow: 5px 5px 5px gray;
-    align-items: center;
+    float:right;
+    display: inline;
+    padding: 0px 3px 0px 3px;
 }
 
 footer
@@ -77,6 +91,8 @@ section#main
     width: 60%;
 }
 
+section#main img
+
 h2
 {
     font-family: 'Roboto Slab', serif;
@@ -92,8 +108,9 @@ p
 
 #signup
 {
-    text-align: center;
+    margin: 0px auto;
     font-size: 4.5em;
     font-family: coreCircus;
+    text-align: center;
 }
 
