@@ -39,13 +39,15 @@ header>img{
 header
 {
 	background-color: #cc2576;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0px 3px 7px grey;
     align-items:  center;
 }
 
 footer
 {
     background: #6545d7;
+    box-shadow: 0px -1px 7px #8272B9;
+
 }
 
 footer>nav
@@ -54,9 +56,6 @@ footer>nav
     width: 50%;
     font-family: 'Roboto Slab', serif;
     color: white;
-    a:link {
-    text-decoration: none;
-    }
 }
 
 footer a:link

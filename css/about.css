@@ -50,12 +50,30 @@ header
 footer
 {
     background: #6545d7;
+    box-shadow: 0px -1px 7px #8272B9;
+
 }
 
 footer>nav
 {
     margin: auto auto;
     width: 50%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+footer a:link
+{
+    text-decoration: none;
+    color: #e9e233;
+}
+
+footer a:visited
+{
+    color: #4f3b26;
+}
+
+
 }
 
 img#main
