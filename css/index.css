@@ -32,6 +32,7 @@ header>img{
 header
 {
 	background-color: #cc2576;
+	box-shadow: 0px 5px 10px #518A6F;
     box-shadow: 5px 5px 5px gray;
     align-items:  center;
 }
