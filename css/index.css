@@ -12,8 +12,8 @@ html, body
 
 #logo
 {
-	max-height: 4%;
-	max-width: 4%;
+	max-height: 7%;
+	max-width: 7%;
 }
 
 @font-face
@@ -46,21 +46,24 @@ header
 {
 	background-color: #cc2576;
     box-shadow: 5px 5px 5px gray;
-    text-align: left;
     
 }
 
 header>section
 {
-    margin: auto auto;
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
 
 header>section>img
 {
-    padding: 3px 3px 3px 3px;
     float: left;
-    margin: 1.5em 0 0 18em;
-    width: 90%;
+}
+
+header>section>h1
+{
+    text-align: center;
 }
 
 header ul
@@ -92,7 +95,7 @@ footer
 
 footer>nav
 {
-    margin: auto auto;
+    margin: auto auto auto auto;
     width: 60%;
     font-family: 'Roboto Slab', serif;
     color: white;
