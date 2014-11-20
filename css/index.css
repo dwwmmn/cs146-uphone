@@ -19,13 +19,14 @@ header>h1
 header
 {
 	background-color: #cc2576;
+	box-shadow: 0px 5px 10px #518A6F;
 }
 
 
 
 footer
 {
-    background: salmon;
+    background: #6545d7;
 }
 
 footer>nav
