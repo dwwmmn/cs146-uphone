@@ -4,6 +4,13 @@
     padding: 0px;
 }
 
+#logo
+{
+	max-height: 4%;
+	max-width: 4%	
+
+}
+
 @font-face
 {
 	font-family: coreCircus;
