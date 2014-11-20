@@ -7,8 +7,7 @@
 #logo
 {
 	max-height: 4%;
-	max-width: 4%	
-
+	max-width: 4%;
 }
 
 @font-face
@@ -21,6 +20,8 @@ body
 {
     background-color: #65AD8B;
 }
+
+
 header>h1
 {
 	font-family: coreCircus;
@@ -28,19 +29,28 @@ header>h1
 	color: #57c25b;
 }
 
-header>nav>ul{
-    text-align: right;
+header nav
+{
+    float:right;
+    display: inline;
 }
 
-header>img{
+header>img
+{
     float: left;
+}
+
+header ul
+{
+    list-style: none;
+    display: inline;
 }
 
 header
 {
 	background-color: #cc2576;
     box-shadow: 5px 5px 5px gray;
-    align-items:  center;
+    align-items: center;
 }
 
 footer
@@ -66,10 +76,6 @@ section#main
     width: 60%;
 }
 
-section#main>article
-{
-}
-
 h2
 {
     font-family: 'Roboto Slab', serif;
@@ -83,15 +89,10 @@ p
     color: #4f3b26;
 }
 
-#signup{
+#signup
+{
     text-align: center;
     font-size: 4.5em;
     font-family: coreCircus;
 }
-
-li{
-    list-style: none;
-    display: inline;
-}
-
 
