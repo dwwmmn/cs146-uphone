@@ -4,31 +4,28 @@
     padding: 0px;
 }
 
-
 @font-face
 {
 	font-family: coreCircus;
 	src: url('media/corecircus.otf')
 }
 
-
 body 
 {
     background-color: #65AD8B;
 }
-
 header>h1
 {
 	font-family: coreCircus;
 	font-size: 5.5em;
 	color: #57c25b;
+	text-align: center;
 }
 
 
 header>nav>ul{
     text-align: right;
 }
-
 
 header>img{
     float: left;
@@ -38,9 +35,11 @@ header>img{
 header
 {
 	background-color: #cc2576;
+	box-shadow: 0px 5px 10px #518A6F;
     box-shadow: 5px 5px 5px gray;
     align-items:  center;
 }
+
 
 
 footer
@@ -54,13 +53,11 @@ footer>nav
     width: 50%;
 }
 
-
 img#main
 {
-    width: 40%;
+    width: 50%;
     float: left;
 }
-
 
 section#main
 {
@@ -68,19 +65,18 @@ section#main
     width: 60%;
 }
 
-
 section#main>article
 {
+    background: #ef90b9;
 }
-
 
 h2
 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 3.0em;
+    text-align: right;
 }
-
 
 p
 {
@@ -88,18 +84,15 @@ p
     color: #4f3b26;
 }
 
-
 #signup{
     text-align: center;
     font-size: 4.5em;
     font-family: coreCircus;
 }
 
-
 li{
     list-style: none;
     display: inline;
 }
-
 
 
