@@ -64,4 +64,24 @@ p {
 
 /* RESPONSIVE */
 
+/* Smallest */
+@media all and (max-width: 300px) {
+    h2 { font-size: 2.0em; }
+    #signup { font-size: 3.0em; }
+}
+
+/* Medium */
+@media all and (max-width: 800px) and (min-width: 300px) {
+    h2 { font-size: 2.5em; }
+    #signup { font-size: 3.5em; }
+}
+
+
+/* Largest */
+@media all and (min-width:800px) and (max-width: 1500px)
+{
+    h2 { font-size: 2.75em; }
+    #signup { font-size: 4.0em; }
+}
+
 /* END RESPONSIVE */
