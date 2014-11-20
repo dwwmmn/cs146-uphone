@@ -15,12 +15,53 @@
     padding: 0px;
 }
 
-html
+body
 {
     width: 100%;
     height: 100%;
     background-color: #65AD8B;
 }
+
+/* HEADER */
+header h1
+{
+	font-family: coreCircus;
+	font-size: 5.5em;
+	color: #57c25b;
+}
+
+header ul{
+    text-align: right;
+}
+
+header>img{
+    float: left;
+}
+
+header
+{
+	background-color: #cc2576;
+    box-shadow: 5px 5px 5px gray;
+    border-bottom: 3px solid grey;
+}
+
+header>section
+{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+header>section>img
+{
+    float: left;
+}
+
+header>section>h1
+{
+    text-align: center;
+}
+/* END HEADER */
 
 /* FOOTER */
 
@@ -76,44 +117,38 @@ footer a:visited
 
 /* END FOOTER */
 
+/* RESPONSIVE */
 
-/* HEADER */
-header h1
+/* Smallest */
+@media all and (max-width: 500px)
 {
-	font-family: coreCircus;
-	font-size: 5.5em;
-	color: #57c25b;
+    header h1
+    {
+        font-size: 2em;
+    }
+
+    #main h2
+    {
+        font-size: 1.5em;
+    }
+
+    img {
+        display: none;
+    }
 }
 
-header ul{
-    text-align: right;
-}
-
-header>img{
-    float: left;
-}
-
-header
+/* Medium */
+@media all and (min-width:500px) and (max-width: 960px)
 {
-	background-color: #cc2576;
-    box-shadow: 5px 5px 5px gray;
-    border-bottom: 3px solid grey;
+    header h1
+    {
+        font-size: 4em;
+    }
+
+    #main h2
+    {
+        font-size: 2.5em;
+    }
 }
 
-header>section
-{
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
-
-header>section>img
-{
-    float: left;
-}
-
-header>section>h1
-{
-    text-align: center;
-}
-/* END HEADER */
+/* END RESPONSIVE */

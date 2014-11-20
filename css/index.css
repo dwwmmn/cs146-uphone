@@ -16,9 +16,8 @@ section#main img
 {
     float: left;
     padding: 5px 5px 5px 5px;
-    align: middle;
     width: 20%;
-    height; 20%;
+    height: 20%;
 }
 
 h2
@@ -32,6 +31,7 @@ p
 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
+    padding: 20px 0px 20px 0px;
 }
 
 #signup
@@ -39,7 +39,7 @@ p
     font-size: 4.5em;
     font-family: coreCircus;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 #signup a:link
@@ -71,3 +71,24 @@ p
     text-decoration: underline;
 }
 /* END MAIN */
+
+/* RESPONSIVE */
+
+/* small */
+@media all and (max-width: 500px)
+{
+    #signup
+    {
+        font-size: 3.5em;
+    }
+}
+
+/* medium */
+@media all and (min-width:500px) and (max-width: 1000px)
+{
+    #signup
+    {
+        font-size: 4em;
+    }
+}
+/* END RESPONSIVE */

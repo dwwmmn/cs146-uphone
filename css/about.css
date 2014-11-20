@@ -1,109 +1,4 @@
-﻿
-
-
-html, body
-{
-    width: 100%;
-    height: 100%;
-}
-
-*{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-}
-
-#logo
-{
-	max-height: 4%;
-	max-width: 4%	
-
-}
-
-@font-face
-{
-	font-family: coreCircus;
-	src: url('../media/corecircus.otf')
-}
-
-body 
-{
-    background-color: #65AD8B;
-}
-header h1
-{
-	font-family: coreCircus;
-	font-size: 5.5em;
-	color: #57c25b;
-}
-
-header
-{
-	background-color: #cc2576;
-    box-shadow: 5px 5px 5px gray;
-    text-align: center;
-}
-
-header>section
-{
-    margin: auto auto;
-}
-
-header>img
-{
-    padding: 3px 3px 3px 3px;
-    float: left;
-}
-
-header ul
-{
-    list-style: none;
-    display: inline;
-}
-
-header li
-{
-    float:right;
-    display: inline;
-    padding: 0px 3px 0px 3px;
-	/*background-color: #cc2576;
-    box-shadow: 0px 3px 7px grey; */
-    align-items:  center;
-}
-
-footer
-{
-    background: #6545d7;
-    box-shadow: 0px -1px 7px #8272B9;
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    bottom: 0;
-    left: 0;    
-}
-
-footer>nav
-{
-    margin: auto auto;
-    width: 50%;
-    font-family: 'Roboto Slab', serif;
-    color: white;
-}
-
-footer a:link
-{
-    text-decoration: none;
-    color: #e9e233;
-}
-
-footer a:visited
-{
-    color: #4f3b26;
-}
-
-
-}
-
+﻿/* MAIN */
 img#main
 {
     width: 40%;
@@ -113,9 +8,17 @@ img#main
 section#main
 {
     margin: auto auto;
-    width: 40%;
+    width: 50%;
+    padding: 20px 20px 100px 20px;
 }
 
+section#main img
+{
+    float: left;
+    padding: 5px 5px 5px 5px;
+    width: 20%;
+    height; 20%;
+}
 
 h2
 {
@@ -128,17 +31,19 @@ p
 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
+    padding: 20px 0px 20px 0px;
+}
+/* END MAIN */
+
+/* RESPONSIVE */
+
+/* small */
+@media all and (max-width: 500px)
+{
 }
 
-#signup{
-    text-align: center;
-    font-size: 4.5em;
-    font-family: coreCircus;
+/* medium */
+@media all and (min-width:500px) and (max-width: 1000px)
+{
 }
-
-li{
-    list-style: none;
-    display: inline;
-}
-
-
+/* END RESPONSIVE */
