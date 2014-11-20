@@ -107,6 +107,9 @@ section#main
 section#main img
 {
     float: left;
+    padding: 5px 5px 5px 5px;
+    width: 20%;
+    height; 20%;
 }
 
 h2
