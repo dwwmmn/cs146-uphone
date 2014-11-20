@@ -22,12 +22,14 @@ header>h1
 	text-align: center;
 }
 
-header nav ul{
+header>nav>ul{
     text-align: right;
 }
+
 header
 {
 	background-color: #cc2576;
+    box-shadow: 5px 5px 5px gray;
 }
 
 footer
@@ -43,7 +45,7 @@ footer>nav
 
 img#main
 {
-    width: 70%;
+    width: 50%;
     float: left;
 }
 
@@ -72,6 +74,13 @@ p
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
 }
+
+#signup{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: coreCircus;
+}
+
 li{
     list-style: none;
     display: inline;
