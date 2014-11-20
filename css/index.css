@@ -29,10 +29,11 @@ header>h1
 	color: #57c25b;
 }
 
-header nav
+header li
 {
     float:right;
     display: inline;
+    padding: 0px 3px 0px 3px;
 }
 
 header>img
