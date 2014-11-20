@@ -4,17 +4,29 @@
     padding: 0px;
 }
 
+html, body
+{
+    width: 100%;
+}
+
+#logo
+{
+	max-height: 4%;
+	max-width: 4%;
+}
+
 @font-face
 {
 	font-family: coreCircus;
-	src: url('media/corecircus.otf')
+	src: url('../media/corecircus.otf')
 }
 
 body 
 {
     background-color: #65AD8B;
 }
-header>h1
+
+header h1
 {
 	font-family: coreCircus;
 	font-size: 5.5em;
@@ -32,20 +44,61 @@ header>img{
 header
 {
 	background-color: #cc2576;
-	box-shadow: 0px 5px 10px #518A6F;
     box-shadow: 5px 5px 5px gray;
+    text-align: center;
+}
+
+header section
+{
+    margin: auto auto;
+}
+
+header>section>img
+{
+    padding: 3px 3px 3px 3px;
+    float: left;
+    margin: 1.5em 0 0 21em;
+}
+
+header ul
+{
+    list-style: none;
+    display: inline;
+}
+
+header li
+{
+    float:right;
+    display: inline;
+    padding: 0px 3px 0px 3px;
+	background-color: #cc2576;
+    box-shadow: 0px 3px 7px grey;
     align-items:  center;
 }
 
 footer
 {
     background: #6545d7;
+    box-shadow: 0px -1px 7px #8272B9;
 }
 
 footer>nav
 {
     margin: auto auto;
     width: 50%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+footer a:link
+{
+    text-decoration: none;
+    color: #e9e233;
+}
+
+footer a:visited
+{
+    color: #4f3b26;
 }
 
 img#main
@@ -60,8 +113,9 @@ section#main
     width: 60%;
 }
 
-section#main>article
+section#main img
 {
+    float: left;
 }
 
 h2
@@ -77,14 +131,10 @@ p
     color: #4f3b26;
 }
 
-#signup{
-    text-align: center;
+#signup
+{
+    margin: 0px auto;
     font-size: 4.5em;
     font-family: coreCircus;
+    text-align: center;
 }
-
-li{
-    list-style: none;
-    display: inline;
-}
-
