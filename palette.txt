@@ -2,7 +2,7 @@ Colors used in the project:
 
 Pink        #cb2475
 Green       #56c15a
-Dark Green  #008f4a
+Dark Green  #33A56E
 Light Pink  #ef90b9
 Purple      #6545d7
 Brown       #4f3b26
