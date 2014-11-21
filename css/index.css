@@ -1,8 +1,4 @@
 /* MAIN */
-img#main {
-    width: 40%;
-    float: left;
-}
 
 section#main {
     margin: auto auto;
@@ -11,6 +7,7 @@ section#main {
 }
 
 section#main img {
+    width: 40%;
     float: left;
     padding: 5px 10px 5px 10px;
     max-width: 30%;
@@ -29,37 +26,48 @@ p {
     padding: 20px 0px 20px 0px;
 }
 
-#signup {
-    font-size: 4.5em;
-    font-family: coreCircus;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
-
-#signup a:link {
-	text-decoration: none;
-	color: #4f3b26;
-}
-
-#signup a:visited{
-	text-decoration: none;
-	color: #e9e233;
-}
-
-#signup a:hover {
-	text-decoration: none;
-	color: #6A5E52;
-}
-
 #main p a:link {
     color: #4f3b26;
     text-decoration: underline;
 }
 
 #main p a:visited {
-    color: #6A5E52;
+    color: #4f3b26;
     text-decoration: underline;
 }
+
+#main p a:hover {
+	color: #6A5E52;
+}
+
+#signup {
+    font-size: 4.5em;
+    font-family: coreCircus;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+}
+#sign>p a:link
+{
+    text-decoration: none;
+	color: #4f3b26;
+}
+
+#sign>p a:visited
+{
+    text-decoration: none;
+	color: #4f3b26;
+}
+
+
+#sign>p a:hover
+{
+    text-decoration: none;
+	color: #6A5E52;
+}
+
+
+
 /* END MAIN */
 
 /* RESPONSIVE */
@@ -71,17 +79,19 @@ p {
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 300px) {
+@media all and (max-width: 800px) and (min-width: 301px) {
     h2 { font-size: 2.5em; }
     #signup { font-size: 3.5em; }
 }
 
 
 /* Largest */
-@media all and (min-width:800px) and (max-width: 1500px)
+@media all and (min-width:801px)
 {
     h2 { font-size: 2.75em; }
     #signup { font-size: 4.0em; }
 }
 
 /* END RESPONSIVE */
+
+<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->

@@ -39,19 +39,19 @@ header {
 	background-color: #cc2576;
     box-shadow: 5px 5px 5px gray;
     border-bottom: 3px solid grey;
-}
-
-header section {
     /* width: 50%; */
     margin: auto;
     text-align: center;
+
 }
 
-header>section>img {
+
+
+header>img {
     float: left;
 }
 
-header>section>h1 {
+header>h1 {
     text-align: center;
 }
 /* END HEADER */
@@ -121,7 +121,7 @@ footer a:visited {
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 300px) {
+@media all and (max-width: 800px) and (min-width: 30px) {
     header h1 {
         font-size: 2em;
     }
@@ -155,3 +155,5 @@ footer a:visited {
 }
 
 /* END RESPONSIVE */
+
+<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->
