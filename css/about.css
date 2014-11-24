@@ -1,3 +1,6 @@
+/* about.css */
+/* Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
+
 /* MAIN */
 img#main {
     width: 40%;
@@ -11,10 +14,9 @@ section#main {
 }
 
 section#main img {
-    float: left;
-    padding: 5px 5px 5px 5px;
-    width: 20%;
-    height; 20%;
+    vertical-align: middle;
+    width: 40%;
+    border: 1px darkgray solid;
 }
 
 h2 {
@@ -28,6 +30,15 @@ p {
     color: #4f3b26;
     padding: 20px 0px 20px 0px;
 }
+
+.bbutton {
+    float: left;
+}
+
+.fbutton {
+    float: right;
+}
+
 /* END MAIN */
 
 /* RESPONSIVE */
@@ -51,4 +62,3 @@ p {
 
 /* END RESPONSIVE */
 
-<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->

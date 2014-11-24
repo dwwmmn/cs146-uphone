@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <!-- ABOUT US -->
+<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->
+
 <html lang='en-us'>
 <head>
     <meta charset='utf-8' />
@@ -8,9 +10,10 @@
     <link rel='stylesheet' href='css/sitewide.css' />
     <link rel='stylesheet' href='css/about.css' />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <script src='./js/about.js' type='text/javascript'></script>
     <title>About Us</title>
 </head>
-<body>
+<body onload="load()">
     <header>
         <img id='logo' alt='dragonfruit logo' src='media/dragonfruit-logo.png' />
         <h1>DragonFruit</h1>
@@ -22,6 +25,13 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac lacinia enim. Duis at tortor ultrices, pulvinar odio id, scelerisque diam. Integer nec est orci. Aenean accumsan, massa eget blandit lobortis, purus ipsum ultrices sapien, sed sagittis risus purus sed ipsum. Nullam porta ullamcorper pharetra. <br><br>Proin nec leo at nisl viverra luctus. Donec eu nisl sit amet magna lobortis auctor id at urna. Sed at luctus felis. Aenean hendrerit euismod faucibus. Morbi nec finibus dui. Maecenas non malesuada nisi.
 
 Etiam nisi purus, volutpat ac malesuada quis, faucibus et nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque in sollicitudin dolor. Vivamus a urna vitae neque scelerisque maximus sit amet at sem. <br><br>In condimentum vestibulum ligula, ac tempor risus finibus pulvinar. Curabitur eu sapien et tortor tempor imperdiet sollicitudin ac elit. Aenean mattis rhoncus eleifend. Duis finibus tortor nec ipsum porta, sed aliquam libero imperdiet. Sed id neque quis dolor sodales vestibulum. Nulla tempus sit amet odio et maximus. Curabitur molestie pharetra odio nec ullamcorper. Pellentesque eros dolor, euismod et tellus eget, vehicula faucibus neque. <br><br> Quisque dignissim leo quis metus tempus lobortis. Aliquam at ligula sed ligula facilisis mattis. Mauris sagittis augue felis, eu vulputate. <br> <br> </p>
+        </article>
+        <article>
+            <p class="bbutton" onclick="back()">&lt;</p>
+            <img id='picture' src="test.jpg" alt="employee" />
+            <p class="fbuttton" onclick="forward()">&gt;</p>
+            <h2 id="name">Name</h2>
+            <p id="blurb">blurb</p>
         </article>
     </section>
     <footer>
@@ -52,4 +62,3 @@ Etiam nisi purus, volutpat ac malesuada quis, faucibus et nisl. Pellentesque hab
     </footer>
 </body>
 </html>
-<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->
