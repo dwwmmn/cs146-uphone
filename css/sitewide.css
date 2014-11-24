@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 	font-family: coreCircus;
 	src: url('../media/corecircus.otf')
 }
@@ -37,7 +37,7 @@ header img {
 
 header {
 	background-color: #cc2576;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0px 3px 5px gray;
     border-bottom: 3px solid grey;
     /* width: 50%; */
     margin: auto;
