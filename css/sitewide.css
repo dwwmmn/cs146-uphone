@@ -34,9 +34,6 @@ header ul{
     text-align: right;
 }
 
-header img {
-    float: none;
-}
 
 header {
 	background-color: #cc2576;
@@ -50,12 +47,19 @@ header {
 
 
 
-header>img {
-    float: left;
-}
+
 
 header>h1 {
     text-align: center;
+    margin: auto;
+    width: 10em;
+    padding-left: 75px;
+    background-image: url('../media/dragonfruit-logo.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-position: 20px 20px; 
+
+
 }
 /* END HEADER */
 
@@ -158,4 +162,3 @@ footer a:visited {
 }
 
 /* END RESPONSIVE */
-
