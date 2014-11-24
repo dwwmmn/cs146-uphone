@@ -3,9 +3,53 @@
 <head>
     <meta charset='utf-8' />
     <meta name='description' content='your description here' />
-    <title> TEMPLATE </title>
+     <link rel='stylesheet' href='css/sitewide.css' />
+    <title>Feedback</title>
 </head>
 <body>
-    <p> Hello World! </p>
+    <header>
+        <img id='logo' alt='dragonfruit logo' src='media/dragonfruit-logo.png' />
+        <h1>DragonFruit</h1>
+    </header>
+    <form method = post>
+        <input type = text name =  "firstname" />
+        <input type = text name = "lastname" />
+        <input type = email name = "email" />
+        <select name = "relation" size = "1">
+            <option value = "phone">uPhone</option>
+            <option value = "site">Website</option>
+            <option value = "social">Social Media</option>
+            <option value = "other">Other</option>
+        </select>
+        <input type = text name = "subject" />
+        <textarea name = "suggestion" rows = 10 cols = 75></textarea>
+        <input type = submit name = "submit" />
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href='http://www.facebook.com/dragonfruit'>
+                        <img alt='facebook logo' src='media/facebook-logo.png' />Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href='http://www.twitter.com/dragonfruit'>
+                        <img alt='twitter logo' src='media/twitter-logo.png' />Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href='http://www.youtube.com/channel/somethignhere'>
+                        <img alt='youtube logo' src='media/youtube-logo.png' />YouTube
+                    </a>
+                </li>
+                <li>
+                    <a href='./contact.html'>
+                        <img alt='contact logo' src='media/contact-logo.png' />Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
