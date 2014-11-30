@@ -1,3 +1,6 @@
+/* feedback.css */
+/* Authors: Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
+
 /* MAIN */
 
 section#main {
@@ -6,23 +9,46 @@ section#main {
     padding: 20px 20px 100px 20px;
 }
 
-form h1{
+form {
+    display: table;
+}
+
+form p {
+    display: table-row;
+}
+
+form h1 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 1.5em;
+    display: table-cell;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
 }
 
-form input{
+form input {
     width: 20em;
     height: 2em;
     font-size: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px 0px 10px 0px;
 }
 
-form select{
+form select {
     width: 20em;
     height: 2em;
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px 0px 10px 0px;
+}
+
+form textarea {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px 0px 10px 0px;
 }
 
 /* END MAIN */
@@ -44,4 +70,3 @@ form select{
 
 /* END RESPONSIVE */
 
-<!-- Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->
