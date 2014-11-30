@@ -1,4 +1,4 @@
-﻿/* sitewide.css */
+/* sitewide.css */
 /* Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
 
 @font-face {
@@ -30,6 +30,11 @@ header h1 {
     vertical-align:middle;
 }
 
+header h1 a {
+    text-decoration: none;
+    color: #57c25b;
+}
+
 header ul{
     text-align: right;
 }
@@ -44,10 +49,6 @@ header {
     text-align: center;
 
 }
-
-
-
-
 
 header>h1 {
     text-align: center;

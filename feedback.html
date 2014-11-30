@@ -8,19 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>DragonFruit</h1>
+        <h1><a href='./index.html'>DragonFruit</a></h1>
     </header>
     <form method = post>
-        <input type = text name =  "firstname" />
-        <input type = text name = "lastname" />
-        <input type = email name = "email" />
-        <select name = "relation" size = "1">
+        <p>First Name: </p><input type = text name =  "firstname" />
+        <p>Last Name: </p><input type = text name = "lastname" />
+        <p>Email: </p><input type = email name = "email" />
+        <p>Regarding What: </p><select name = "relation" size = "1">
             <option value = "phone">uPhone</option>
             <option value = "site">Website</option>
             <option value = "social">Social Media</option>
             <option value = "other">Other</option>
         </select>
-        <input type = text name = "subject" />
+        <p>Subject: </p><input type = text name = "subject" />
+        <br>
         <textarea name = "suggestion" rows = 10 cols = 75></textarea>
         <input type = submit name = "submit" />
     </form>
