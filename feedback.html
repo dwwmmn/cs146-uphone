@@ -3,29 +3,32 @@
 <head>
     <meta charset='utf-8' />
     <meta name='description' content='Page for collecting feedback.' />
-     <link rel='stylesheet' href='css/sitewide.css' />
-     <link rel='stylesheet' href='css/feedback.css' />
+    <link rel='stylesheet' href='css/sitewide.css' />
+    <link rel='stylesheet' href='css/feedback.css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css' />
     <title>.: Feedback :.</title>
 </head>
 <body>
     <header>
         <h1><a href='./index.html'>DragonFruit</a></h1>
     </header>
+    <section id ='main'>
     <form method = post>
-        <p>First Name: </p><input type = text name =  "firstname" />
-        <p>Last Name: </p><input type = text name = "lastname" />
-        <p>Email: </p><input type = email name = "email" />
-        <p>Regarding What: </p><select name = "relation" size = "1">
+        <h1>First Name: </h1><input type = text name =  "firstname" />
+        <h1>Last Name: </h1><input type = text name = "lastname" />
+        <h1>Email: </h1><input type = email name = "email" />
+        <h1>Regarding What: </h1><select name = "relation" size = "1">
             <option value = "phone">uPhone</option>
             <option value = "site">Website</option>
             <option value = "social">Social Media</option>
             <option value = "other">Other</option>
         </select>
-        <p>Subject: </p><input type = text name = "subject" />
+        <h1>Subject: </h1><input type = text name = "subject" />
+        <h1>Content: </h1><textarea name = "suggestion" rows = 10 cols = 75></textarea>
         <br>
-        <textarea name = "suggestion" rows = 10 cols = 75></textarea>
         <input type = submit name = "submit" />
     </form>
+    </section>
     <footer>
         <nav>
             <ul>
