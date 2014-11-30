@@ -115,7 +115,7 @@ footer a:visited {
         font-size: 1.5em;
     }
 
-    #main h2 {
+    #main article h1 {
         font-size: 0.75em;
     }
 
@@ -130,7 +130,7 @@ footer a:visited {
         font-size: 2em;
     }
 
-    #main h2 {
+    #main article h1 {
         font-size: 1.5em;
     }
 
@@ -152,7 +152,7 @@ footer a:visited {
     header section { width: 70%; }
     section#main { width: 60% } 
 
-    #main h2
+    #main article h1
     {
         font-size: 2.5em;
     }
