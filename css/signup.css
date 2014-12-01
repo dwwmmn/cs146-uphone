@@ -15,57 +15,64 @@ section#main img {
     max-width: 30%;
     min-width: 10%;
 }
-form {
+
+form ul {
+    list-style: none;
+    padding: 5px 5px 5px 20px;
+}
+
+#smartdevice {
+    display: none;
+}
+
+#contact {
     display: table;
 }
 
-article {
+#contact li {
     display: table-row;
 }
 
-form p {
-    display: table-cell;
-    text-align: left;
+#contact li>label {
+    display:table-cell;
+    text-align: right;
+}
+
+#contact li>input {
+    display:table-cell;
+}
+
+article {
+    display: block;
+}
+
+p, label {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
-    padding: 5px 0px 20px 0px;
 }
 
-form ul {
-    display: table-cell;
-    vertical-align: middle;
-    list-style: none;
-    padding: 0px 0px 0px 5px;
-}
-
-form li {
-    padding: 3px 3px 3px 3px;
-}
-
-fieldset>label
-{
+article>p {
     font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+article label {
+    padding: 0px 0px 0px 20px;
+}
+
+fieldset>label {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
-    font-size: 3.0em;
+    font-size: 2.25em;
+    vertical-align: middle;
 }
 
-form li>label {
-    font-family: 'Roboto Slab', serif;
-    color: #4f3b26;
-    padding: 5px 0px 20px 0px;
+input[type='text'] {
+    margin: 3px 3px 3px 3px;
 }
 
-ul#contact {
-    display: table;
-}
-
-ul#contact label, #contact input {
-    display: table-cell;
-}
-
-ul#contact input {
-    float: right;
+input[type='email'] {
+    margin: 3px 3px 3px 3px;
 }
 
 /* END MAIN */
@@ -78,7 +85,7 @@ ul#contact input {
     section#main
     {
         width: 90%;
-        padding: none;
+        padding: 0px 0px 0px 0px;
     }
 }
 

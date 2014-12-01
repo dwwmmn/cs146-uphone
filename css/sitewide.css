@@ -45,7 +45,6 @@ header {
     border-bottom: 3px solid gray;
     margin: auto;
     text-align: center;
-
 }
 
 /* END HEADER */
@@ -142,7 +141,6 @@ footer a:visited {
     
 
 }
-
 
 /* Largest */
 @media all and (min-width:800px) and (max-width: 1500px)
