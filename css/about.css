@@ -42,7 +42,7 @@ button {
 
 /* Smallest */
 @media all and (max-width: 300px) {
-    article h1 { font-size: 2.0em; }
+    article h1 { font-size: 2.0em; } 
 }
 
 /* Medium */

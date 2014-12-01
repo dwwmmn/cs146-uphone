@@ -6,10 +6,6 @@
 	src: url('../media/corecircus.otf')
 }
 
-#logo {
-	max-width: 90px;
-}
-
 *{
     border: 0px;
     margin: 0px;
@@ -106,7 +102,7 @@ footer a:visited {
 @media all and (max-width: 300px) {
     header h1 {
         font-size: 1.5em;
-        padding-left: none;
+        padding-left: 0px;
         background-image: none;
     }
     
@@ -130,6 +126,7 @@ footer a:visited {
     header h1 {
         font-size: 2em;
         background-image: none;
+        padding-left: 0px;
 
     }
 
@@ -144,7 +141,6 @@ footer a:visited {
     
 
 }
-
 
 /* Largest */
 @media all and (min-width:800px) and (max-width: 1500px)
