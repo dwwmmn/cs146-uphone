@@ -10,7 +10,7 @@ section#main {
 }
 
 form {
-    display: table;
+    align-items: center;
 }
 
 form article {
@@ -21,16 +21,16 @@ form h1 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 1.5em;
-    display: table-cell;
+    float: left;
     text-align: right;
-    padding: 0px 5px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 form input {
     width: 20em;
     height: 2em;
     font-size: 1em;
-    display: table-cell;
+    float: right;
     vertical-align: middle;
     margin: 10px 0px 10px 0px;
 }
@@ -40,13 +40,13 @@ form select {
     height: 2em;
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
-    display: table-cell;
+    float: right;
     vertical-align: middle;
     margin: 10px 0px 10px 0px;
 }
 
 form textarea {
-    display: table-cell;
+    float: right;
     vertical-align: middle;
     margin: 10px 0px 10px 0px;
 }
@@ -56,16 +56,30 @@ form textarea {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) {
+@media all and (max-width: 300px) {\
+    #main article h1{
+        font-size: 0.5em;
+    }
+    form select{
+        width: 10em;
+        height: 1em;
+        font-size: 0.5em;
+    }
 }
 
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) { 
+    #main article h1{
+        font-size: 1.0em;
+    }
 }
 
 
 /* Largest */
 @media all and (min-width:801px){
+    #main article h1{
+        font-size: 1.5em;
+    }
 }
 
 /* END RESPONSIVE */
