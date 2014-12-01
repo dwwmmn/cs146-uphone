@@ -20,7 +20,7 @@ var blurbs = [
         "./media/AA.png"
     ],
     [
-        "Alexandra \"Ali\" Smith", 
+        "Ali Smith", 
         "Ali Smith is a freshman majoring in Computer Science at Stevens Institute of Technology. She likes sleeping and drinking coffee.",
         "./media/AS.png"
     ]
