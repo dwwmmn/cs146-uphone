@@ -3,7 +3,7 @@ var blurbs = [
     ["Shawn Fodor" , "Shawn is good at Photoshop."        , "./media/SF.png"],
     ["Henry Paul"  , "Henry is good at CSS."              , "./media/HP.png"],
     ["Ayse Akin"   , "Ayse is good at CSS, too!"          , "./media/AA.png"],
-    ["Ali Smith"   , "Ali is good at HTML."               , "./media/HP.png"]
+    ["Ali Smith"   , "Ali is good at HTML."               , "./media/AS.png"]
 ];
 var blurblen = 5;
 var index = 0;
