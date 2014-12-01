@@ -20,8 +20,8 @@ var blurbs = [
         "./media/AA.png"
     ],
     [
-        "Ali Smith", 
-        "Ali Smith is a freshman majoring in Computer Science at Stevens Institute of Technology.",
+        "Alexandra \"Ali\" Smith", 
+        "Ali Smith is a freshman majoring in Computer Science at Stevens Institute of Technology. She likes sleeping and drinking coffee.",
         "./media/AS.png"
     ]
 ];
