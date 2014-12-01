@@ -8,14 +8,6 @@ section#main {
     padding: 20px 20px 100px 20px;
 }
 
-section#main img {
-    width: 40%;
-    float: left;
-    padding: 5px 10px 5px 10px;
-    max-width: 30%;
-    min-width: 10%;
-}
-
 form ul {
     list-style: none;
     padding: 5px 5px 5px 20px;
@@ -57,10 +49,10 @@ article>p {
 }
 
 article label {
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 15px;
 }
 
-fieldset>label {
+fieldset>legend {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 2.25em;
@@ -81,26 +73,46 @@ input[type='email'] {
 
 /* Smallest */
 @media all and (max-width: 300px) {
-    article h1 { font-size: 2.0em; }
     section#main
     {
         width: 90%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 5px 0px 0px;
     }
+    fieldset>legend
+    {
+        font-size: 1.2em;
+    }
+    p, label
+    {
+        font-size: 0.8em;
+    }
+    form input[type='text'], input[type='email']
+    {
+        width: 9.5em;
+    }
+    
 }
 
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) {
-    article h1 { font-size: 2.5em; }
     section#main
     {
         width: 70%;
     }
+    fieldset>legend
+    {
+        font-size: 1.75em;
+    }
+    p, label
+    {
+        font-size: 0.9em;
+    }
+
+
 }
 
 /* Largest */
 @media all and (min-width:801px) and (max-width: 1500px)
 {
-    article h1 { font-size: 2.75em; }
 }
 /* END RESPONSIVE */

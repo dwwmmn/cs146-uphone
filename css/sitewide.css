@@ -124,7 +124,7 @@ footer a:visited {
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) {
     header h1 {
-        font-size: 2em;
+        font-size: 1.8em;
         background-image: none;
         padding-left: 0px;
     }

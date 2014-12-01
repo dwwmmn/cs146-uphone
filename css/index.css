@@ -76,7 +76,7 @@ p {
     #signup { font-size: 3.0em; }    
     section#main
     {
-        width: 90%;
+        width: 80%;
         padding: none;
     }
 }
@@ -84,7 +84,7 @@ p {
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) {
     article h1 { font-size: 2.5em; }
-    #signup { font-size: 3.5em; }     
+    #signup { font-size: 3.3em; }     
     section#main
     {
         width: 70%;

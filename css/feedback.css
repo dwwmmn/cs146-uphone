@@ -9,15 +9,24 @@ section#main {
     padding: 20px 20px 100px 20px;
 }
 
-form {
-    align-items: center;
+#main h1
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    font-size: 2.75em;
+}
+
+#main p
+{
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
 }
 
 form article {
     display: table-row;
 }
 
-form h1 {
+form h2 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 1.5em;
@@ -56,26 +65,52 @@ form textarea {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) {\
-    #main article h1{
-        font-size: 0.5em;
+@media all and (max-width: 300px) {
+    section#main
+    {
+        width: 90%;
     }
-    section#main{
-        
+    #main h1{
+        font-size: 2em;
+    }
+    #main article h2
+    {
+        font-size: 0.75em;
     }
 }
 
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) { 
-    #main article h1{
-        font-size: 1.0em;
+    #main h1{
+        font-size: 2.5em;
+    }
+    #main article h2
+    {
+        font-size: 1em;
+    }
+    form input
+    {
+        width: 15em;
+    }
+    form select
+    {
+        width: 15em;
+    }
+    form textarea
+    {
+        width: 20em;
     }
 }
 
 
 /* Largest */
 @media all and (min-width:801px){
-    #main article h1{
+    #main h1
+    {
+        font-size: 2.75em;
+    }
+    #main article h2
+    {
         font-size: 1.5em;
     }
 }
