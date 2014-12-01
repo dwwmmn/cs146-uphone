@@ -1,0 +1,23 @@
+/* signup.css */
+/* Authors: Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
+
+/* MAIN */
+
+/* END MAIN */
+
+/* RESPONSIVE */
+
+/* Smallest */
+@media all and (max-width: 300px) {
+}
+
+/* Medium */
+@media all and (max-width: 800px) and (min-width: 301px) { 
+}
+
+
+/* Largest */
+@media all and (min-width:801px){
+}
+
+/* END RESPONSIVE */
