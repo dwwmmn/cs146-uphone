@@ -27,19 +27,30 @@ section#main {
     padding: 0px 5px 0px 0px;
 }
 
+form article {
+    display: table-row;
+}
+
+form h2 {
+    display: table-cell;
+    text-align: right;
+}
+
 form input {
     width: 20em;
     height: 2em;
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     vertical-align: middle;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 5px 10px 5px;
     padding: 2px 3px;
+    display: table-cell;
 }
 
 form input[type="submit"] {
     width: 10em;
     font-family: 'Roboto Slab', serif;
+    display: table-cell;
 }
 
 form select {
@@ -48,15 +59,21 @@ form select {
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 5px 10px 5px;
+    display: table-cell;
 }
 
 form textarea {
     vertical-align: middle;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 5px 10px 5px;
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
     padding: 2px 3px;
+    display: table-cell;
+}
+
+form input[type='submit'] {
+    display: table-cell;
 }
 
 /* END MAIN */
@@ -74,15 +91,20 @@ form textarea {
     #main article h2 {
         font-size: 1em;
     }
+    form article {
+        display: block:
+    }
     form input {
         height: 1.5em;
         font-size: 0.75em;
         width: 10em;
+        display: block;
     }
     form select {
         width: 10em;
         height: 1.5em;
         font-size: 0.75em;
+        display: block;
     }
     form input[type="submit"] {
         height: 2em;
@@ -90,6 +112,7 @@ form textarea {
     form textarea {
         width: 18em;
         font-size: 0.75em;
+        display: block;
     }
 }
 
@@ -104,14 +127,24 @@ form textarea {
     #main article h2 {
         font-size: 1em;
     }
+    form article {
+        display: block:
+    }
+    form h2 {
+        text-align: inherit;
+        display: block;
+    }
     form input {
         width: 15em;
+        display: block;
     }
     form select {
         width: 15em;
+        display: block;
     }
     form textarea {
         width: 20em;
+        display: block;
     }
 }
 
