@@ -59,12 +59,21 @@ fieldset>legend {
     vertical-align: middle;
 }
 
-input[type='text'] {
+form input[type='text'] {
     margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
 }
 
-input[type='email'] {
+form input[type='email'] {
     margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+}
+
+form input[type="submit"]
+{
+    margin: 5px 0px 0px 0px;
+    padding: 3px 10px 3px 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* END MAIN */
@@ -76,7 +85,7 @@ input[type='email'] {
     section#main
     {
         width: 90%;
-        padding: 0px 5px 0px 0px;
+        padding: 0px 5px 100px 0px;
     }
     fieldset>legend
     {
@@ -88,7 +97,11 @@ input[type='email'] {
     }
     form input[type='text'], input[type='email']
     {
-        width: 9.5em;
+        width: 9em;
+    }
+    form ul 
+    {
+        padding: 5px 5px 5px 5px;
     }
     
 }
@@ -107,8 +120,10 @@ input[type='email'] {
     {
         font-size: 0.9em;
     }
-
-
+        form ul 
+    {
+        padding: 5px 5px 5px 5px;
+    }
 }
 
 /* Largest */

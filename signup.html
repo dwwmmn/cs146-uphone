@@ -52,11 +52,11 @@
 
                 <article>
                     <p>I am a... <i>(check all that apply)</i></p>
-                    <label> <input type='checkbox' name='occupation' value='developer'/> Developer  </label><br />
-                    <label> <input type='checkbox' name='occupation' value='business' /> Businessman</label><br />
-                    <label> <input type='checkbox' name='occupation' value='manager'  /> Manager    </label><br />
-                    <label> <input type='checkbox' name='occupation' value='home'     /> Home User  </label><br />
-                    <label> <input type='checkbox' name='occupation' value='student'  /> Student    </label><br />
+                    <label> <input type='checkbox' name='occupation[]' value='developer'/> Developer  </label><br />
+                    <label> <input type='checkbox' name='occupation[]' value='business' /> Businessman</label><br />
+                    <label> <input type='checkbox' name='occupation[]' value='manager'  /> Manager    </label><br />
+                    <label> <input type='checkbox' name='occupation[]' value='home'     /> Home User  </label><br />
+                    <label> <input type='checkbox' name='occupation[]' value='student'  /> Student    </label><br />
                 </article>
 
                 <article>
@@ -67,25 +67,44 @@
 
                 <article id='smartdevice'>
                     <p>What kind of smart device(s) do you own?</p>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='ipad'  />iPad          </label><br />
-                    <label> <input type='checkbox' name='smartdeviceoption' value='iphone'/>iPhone        </label><br />
-                    <label> <input type='checkbox' name='smartdeviceoption' value='at'    />Android Tablet</label><br />
-                    <label> <input type='checkbox' name='smartdeviceoption' value='ap'    />Android Phone </label><br />
-                    <label> <input type='checkbox' name='smartdeviceoption' value='wp'    />Windows Phone </label><br />
-                    <label> <input type='checkbox' name='smartdeviceoption' value='other' />Other         </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='ipad'  />iPad          </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='iphone'/>iPhone        </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='at'    />Android Tablet</label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='ap'    />Android Phone </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='wp'    />Windows Phone </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption[]' value='other' />Other         </label><br />
                 </article>
             </fieldset>
 
             <fieldset>
-                <legend>Size and Form Factor</legend>
+                <legend>Phone Options</legend>
 
-                <p>In this section, we will explore sizing options. </p><br />
+                <p>What do you prefer for your smartphone?</p><br />
 
                 <article>
                     <p>What is your preferred size?</p>
-                    <label> <input type='radio' name='occupation' value='35' /> 3.5"  </label><br />
-                    <label> <input type='radio' name='occupation' value='37' /> 3.7"  </label><br />
-                    <label> <input type='radio' name='occupation' value='46' /> 4.65" </label><br />
+                    <label> <input type='radio' name='size' value='35' /> 3.5"  </label><br />
+                    <label> <input type='radio' name='size' value='37' /> 3.7"  </label><br />
+                    <label> <input type='radio' name='size' value='40' /> 4.0" </label><br />
+                    <label> <input type='radio' name='size' value='47' /> 4.7" </label><br />
+                    <label> <input type='radio' name='size' value='50' /> 5.0" or larger </label><br />               
+                </article>
+                
+                <article>
+                    <p>Which type of storage do you prefer?</p>
+                    <label> <input type='radio' name='storage' value='internal' />Internal Storage</label><br />
+                    <label> <input type='radio' name='storage' value='sd' />MicroSD Card</label><br />
+                </article>
+                
+                <article>
+                    <p>Which of the following are most important to you?</p>
+                    <label> <input type='checkbox' name='important[]' value='battery'/> Battery life </label><br />
+                    <label> <input type='checkbox' name='important[]' value='durable'/> Durability of phone </label><br />
+                    <label> <input type='checkbox' name='important[]' value='aesthetic'/> Aesthetic appeal of phone </label><br />
+                    <label> <input type='checkbox' name='important[]' value='color'/> Color of phone </label><br />
+                    <label> <input type='checkbox' name='important[]' value='camera'/> Camera quality </label><br />
+                    <label> <input type='checkbox' name='important[]' value='cost'/> Price of phone </label><br />
+
                 </article>
             </fieldset>
             <input type='submit' name='submit' value='Submit'/>
