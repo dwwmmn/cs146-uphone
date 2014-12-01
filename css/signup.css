@@ -4,7 +4,7 @@
 /* MAIN */
 
 section#main {
-    width: 60%;
+    width: 50%;
     margin: auto auto;
 }
 
@@ -16,24 +16,50 @@ article {
     display: table-row;
 }
 
-form h1 {
+form p {
     display: table-cell;
     text-align: left;
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    padding: 5px 0px 20px 0px;
 }
 
 form ul {
     display: table-cell;
     vertical-align: middle;
-}
-
-form h2 {
-    text-align: left;
+    list-style: none;
+    padding: 0px 0px 0px 5px;
 }
 
 form li {
-
+    padding: 3px 3px 3px 3px;
 }
 
+fieldset>label
+{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    font-size: 3.0em;
+}
+
+form li>label {
+    font-family: 'Roboto Slab', serif;
+    color: #4f3b26;
+    padding: 5px 0px 20px 0px;
+}
+
+ul#contact {
+    display: table;
+}
+
+ul#contact label, #contact input {
+    display: table-cell;
+}
+
+ul#contact input {
+    float: right;
+}
 
 /* END MAIN */
 
