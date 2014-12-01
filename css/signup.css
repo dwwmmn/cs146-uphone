@@ -3,6 +3,38 @@
 
 /* MAIN */
 
+section#main {
+    width: 60%;
+    margin: auto auto;
+}
+
+form {
+    display: table;
+}
+
+article {
+    display: table-row;
+}
+
+form h1 {
+    display: table-cell;
+    text-align: left;
+}
+
+form ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form h2 {
+    text-align: left;
+}
+
+form li {
+
+}
+
+
 /* END MAIN */
 
 /* RESPONSIVE */

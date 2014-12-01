@@ -13,46 +13,50 @@
     <header>
         <h1><a href='./index.html'>DragonFruit</a></h1>
     </header>
-    <section id="main">
+    <section id='main'>
         <form>
             <fieldset>
                 <label>Who are you?</label>
 
                 <p>In this section, we will get a sense of how you're going to use the phone.</p>
 
-                <h1>I am ...</h1>
-                <p id='.cell'>
-                    <h2>&lt;10 </h2><input type='radio' name='age' value='lt10' />
-                    <h2>10-18  </h2><input type='radio' name='age' value='1018' />
-                    <h2>18-30  </h2><input type='radio' name='age' value='1830' />
-                    <h2>30-50  </h2><input type='radio' name='age' value='3050' />
-                    <h2>&gt;50 </h2><input type='radio' name='age' value='gt50' />
-                </p>
-                <h1>... years old. </h1>
+                <article>
+                    <h1>How old are you?</h1>
+                    <ul>
+                        <li> <h2>&lt;10 </h2> <input type='radio' name='age' value='lt10' /> </li>
+                        <li> <h2>10-18  </h2> <input type='radio' name='age' value='1018' /> </li>
+                        <li> <h2>18-30  </h2> <input type='radio' name='age' value='1830' /> </li>
+                        <li> <h2>30-50  </h2> <input type='radio' name='age' value='3050' /> </li>
+                        <li> <h2>&gt;50 </h2> <input type='radio' name='age' value='gt50' /> </li>
+                    </ul>
+                </article>
 
-                <h1>I am a... <i>(check all that apply)</i></h1>
-                <p id='.cell'>
-                    <h2>Developer</h2>  <input type='checkbox' name='occupation' value='developer' />
-                    <h2>Businessman</h2><input type='checkbox' name='occupation' value='business' />
-                    <h2>Manager</h2>    <input type='checkbox' name='occupation' value='manager' />
-                    <h2>Home User</h2>  <input type='checkbox' name='occupation' value='home' />
-                    <h2>Student</h2>    <input type='checkbox' name='occupation' value='student' />
-                </p>
+                <article>
+                    <h1>I am a... <i>(check all that apply)</i></h1>
+                    <ul>
+                        <li> <h2>Developer</h2>  <input type='checkbox' name='occupation' value='developer' /> </li>
+                        <li> <h2>Businessman</h2><input type='checkbox' name='occupation' value='business' /> </li>
+                        <li> <h2>Manager</h2>    <input type='checkbox' name='occupation' value='manager' /> </li>
+                        <li> <h2>Home User</h2>  <input type='checkbox' name='occupation' value='home' /> </li>
+                        <li> <h2>Student</h2>    <input type='checkbox' name='occupation' value='student' /> </li>
+                    </ul>
+                </article>
 
-                <input>
             </fieldset>
+
             <fieldset>
                 <label>Size and Form Factor</label>
+
                 <p> In this section, we will explore sizing options. </p>
 
-                <p>What is your preferred size?<p>
-                <p>
-                    <input type='radio' name='occupation' value='35'>3.5"</input>
-                    <input type='radio' name='occupation' value='35'>3.7"</input>
-                    <input type='radio' name='occupation' value='35'>4.65"</input>
-                </p>
+                <h1>What is your preferred size?</h1>
+                <ul>
+                    <li> <h2>3.5" </h2> <input type='radio' name='occupation' value='35' /> </li>
+                    <li> <h2>3.7" </h2> <input type='radio' name='occupation' value='37' /> </li>
+                    <li> <h2>4.65"</h2> <input type='radio' name='occupation' value='46' /> </li>
+                </ul>
             </fieldset>
-            <input type='submit' name='submit'>Submit</input>
+            <input type='submit' name='submit' />
         </form>
     </section>
     <footer>
