@@ -25,10 +25,6 @@ article h1 {
     font-size: 3.0em;
 }
 
-#pictures {
-    text-align: center;
-}
-
 p {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
@@ -38,6 +34,16 @@ p {
 button {
     width: 30px;
     height: 30px;
+}
+
+#pictures {
+    text-align: center;
+}
+
+#pictures p {
+    width: 40%;
+    text-align: center;
+    margin: auto auto;
 }
 
 /* END MAIN */
@@ -54,7 +60,6 @@ button {
     article h1 { font-size: 2.5em; }
 }
 
-
 /* Largest */
 @media all and (min-width:801px) and (max-width: 1500px)
 {
@@ -62,4 +67,3 @@ button {
 }
 
 /* END RESPONSIVE */
-
