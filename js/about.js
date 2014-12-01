@@ -22,7 +22,7 @@ var blurbs = [
     [
         "Ali Smith", 
         "Ali Smith is a freshman majoring in Computer Science at Stevens Institute of Technology.",
-        "./media/HP.png"
+        "./media/AS.png"
     ]
 ];
 var blurblen = 5;
