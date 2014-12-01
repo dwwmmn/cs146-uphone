@@ -2,12 +2,19 @@
 /* Authors: Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
 
 /* MAIN */
-
 section#main {
-    width: 50%;
     margin: auto auto;
+    width: 50%;
+    padding: 20px 20px 100px 20px;
 }
 
+section#main img {
+    width: 40%;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    max-width: 30%;
+    min-width: 10%;
+}
 form {
     display: table;
 }
