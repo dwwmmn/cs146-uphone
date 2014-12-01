@@ -1,11 +1,85 @@
 <!DOCTYPE html>
+<!-- Signup page -->
+<!-- Authors: Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith -->
 <html lang='en-us'>
 <head>
     <meta charset='utf-8' />
-    <meta name='description' content='your description here' />
-    <title> TEMPLATE </title>
+    <meta name='description' content='Take the uPhone survey.' />
+    <link rel='stylesheet' href='css/sitewide.css' />
+    <link rel='stylesheet' href='css/signup.css' />
+    <title>SIGN UP</title>
 </head>
 <body>
-    <p> Hello World! </p>
+    <header>
+        <h1><a href='./index.html'>DragonFruit</a></h1>
+    </header>
+    <section id="main">
+        <form>
+            <fieldset>
+                <label>Who are you?</label>
+
+                <p>In this section, we will get a sense of how you're going to use the phone.</p>
+
+                <h1>I am ...</h1>
+                <p id='.cell'>
+                    <h2>&lt;10 </h2><input type='radio' name='age' value='lt10' />
+                    <h2>10-18  </h2><input type='radio' name='age' value='1018' />
+                    <h2>18-30  </h2><input type='radio' name='age' value='1830' />
+                    <h2>30-50  </h2><input type='radio' name='age' value='3050' />
+                    <h2>&gt;50 </h2><input type='radio' name='age' value='gt50' />
+                </p>
+                <h1>... years old. </h1>
+
+                <h1>I am a... <i>(check all that apply)</i></h1>
+                <p id='.cell'>
+                    <h2>Developer</h2>  <input type='checkbox' name='occupation' value='developer' />
+                    <h2>Businessman</h2><input type='checkbox' name='occupation' value='business' />
+                    <h2>Manager</h2>    <input type='checkbox' name='occupation' value='manager' />
+                    <h2>Home User</h2>  <input type='checkbox' name='occupation' value='home' />
+                    <h2>Student</h2>    <input type='checkbox' name='occupation' value='student' />
+                </p>
+
+                <input>
+            </fieldset>
+            <fieldset>
+                <label>Size and Form Factor</label>
+                <p> In this section, we will explore sizing options. </p>
+
+                <p>What is your preferred size?<p>
+                <p>
+                    <input type='radio' name='occupation' value='35'>3.5"</input>
+                    <input type='radio' name='occupation' value='35'>3.7"</input>
+                    <input type='radio' name='occupation' value='35'>4.65"</input>
+                </p>
+            </fieldset>
+            <input type='submit' name='submit'>Submit</input>
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href='http://www.facebook.com/dragonfruit'>
+                        <img alt='facebook logo' src='media/facebook-logo.png' />Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href='http://www.twitter.com/dragonfruit'>
+                        <img alt='twitter logo' src='media/twitter-logo.png' />Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href='http://www.youtube.com/channel/somethignhere'>
+                        <img alt='youtube logo' src='media/youtube-logo.png' />YouTube
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:dragonfruit@dragonfruit.com">
+                        <img alt='contact logo' src='media/contact-logo.png' />Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
