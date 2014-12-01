@@ -25,6 +25,10 @@ article h1 {
     font-size: 3.0em;
 }
 
+#pictures {
+    text-align: center;
+}
+
 p {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
