@@ -13,7 +13,7 @@ form {
     display: table;
 }
 
-form p {
+form article {
     display: table-row;
 }
 

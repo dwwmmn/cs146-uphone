@@ -74,15 +74,26 @@ ul#contact input {
 
 /* Smallest */
 @media all and (max-width: 300px) {
+    article h1 { font-size: 2.0em; }
+    section#main
+    {
+        width: 90%;
+        padding: none;
+    }
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 301px) { 
+@media all and (max-width: 800px) and (min-width: 301px) {
+    article h1 { font-size: 2.5em; }
+    section#main
+    {
+        width: 70%;
+    }
 }
-
 
 /* Largest */
-@media all and (min-width:801px){
+@media all and (min-width:801px) and (max-width: 1500px)
+{
+    article h1 { font-size: 2.75em; }
 }
-
 /* END RESPONSIVE */
