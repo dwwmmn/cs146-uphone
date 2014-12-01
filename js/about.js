@@ -1,9 +1,29 @@
 var blurbs = [
-    ["Drew Malzahn", "Drew is good at computers, sort of.", "./media/DM.png"],
-    ["Shawn Fodor" , "Shawn is good at Photoshop."        , "./media/SF.png"],
-    ["Henry Paul"  , "Henry is good at CSS."              , "./media/HP.png"],
-    ["Ayse Akin"   , "Ayse is good at CSS, too!"          , "./media/AA.png"],
-    ["Ali Smith"   , "Ali is good at HTML."               , "./media/HP.png"]
+    [
+        "Drew Malzahn", 
+        "Drew Malzahn is a freshman majoring in Cybersecurity at Stevens Institute of Technology. He likes UNIX and eating eggs.", 
+        "./media/DM.png"
+    ],
+    [
+        "Shawn Fodor",
+        "Shawn Fodor is a freshman majoring in Cybersecurity at Stevens Insitute of Technology. ",
+        "./media/SF.png"
+    ],
+    [
+        "Henry Paul",
+        "Henry Paul is a freshman majoring in Computer Science at Stevens Institute of Technology.",
+        "./media/HP.png"
+    ],
+    [
+        "Ayse Akin", 
+        "Ayse Akin is a freshman majoring in Computer Science at Stevens Institute of Technology.",
+        "./media/AA.png"
+    ],
+    [
+        "Ali Smith", 
+        "Ali Smith is a freshman majoring in Computer Science at Stevens Institute of Technology.",
+        "./media/HP.png"
+    ]
 ];
 var blurblen = 5;
 var index = 0;
