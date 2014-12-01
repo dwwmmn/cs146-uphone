@@ -1,4 +1,4 @@
-/* sitewide.css */
+﻿/* sitewide.css */
 /* Ayse Akin, Shawn Fodor, Drew Malzahn, Henry Paul, Alexandra Smith */
 
 @font-face {
@@ -130,6 +130,8 @@ footer a:visited {
 @media all and (max-width: 800px) and (min-width: 301px) {
     header h1 {
         font-size: 2em;
+        background-image: none;
+
     }
 
 
@@ -140,6 +142,8 @@ footer a:visited {
     img {
         display: none;
     }
+    
+
 }
 
 
@@ -149,7 +153,15 @@ footer a:visited {
     header h1
     {
         font-size: 4em;
+        background-size: 7%;
+        background-position: 40px 20px; 
+
+
     }
+    
+    header
+    {
+	}
 
     /* In order to make better use of precious horizontal space */
     header section { width: 70%; }
