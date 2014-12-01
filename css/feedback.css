@@ -9,29 +9,25 @@ section#main {
     padding: 20px 20px 100px 20px;
 }
 
-#main h1
-{
+#main h1 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 2.75em;
 }
 
-#main p
-{
+#main p {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
 }
 
-#main article h2
-{
+#main article h2 {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
     font-size: 1em;
     padding: 0px 5px 0px 0px;
 }
 
-form input 
-{
+form input {
     width: 20em;
     height: 2em;
     font-family: 'Roboto Slab', serif;
@@ -41,14 +37,12 @@ form input
     padding: 2px 3px;
 }
 
-form input[type="submit"]
-{
+form input[type="submit"] {
     width: 10em;
     font-family: 'Roboto Slab', serif;
 }
 
-form select 
-{
+form select {
     width: 20em;
     height: 2em;
     font-size: 1em;
@@ -57,8 +51,7 @@ form select
     margin: 0px 0px 10px 0px;
 }
 
-form textarea 
-{
+form textarea {
     vertical-align: middle;
     margin: 10px 0px 10px 0px;
     font-size: 1em;
@@ -72,35 +65,29 @@ form textarea
 
 /* Smallest */
 @media all and (max-width: 300px) {
-    section#main
-    {
+    section#main {
         width: 80%;
     }
-    #main h1{
+    #main h1 {
         font-size: 2em;
     }
-    #main article h2
-    {
+    #main article h2 {
         font-size: 1em;
     }
-    form input
-    {
+    form input {
         height: 1.5em;
         font-size: 0.75em;
         width: 10em;
     }
-    form select
-    {
+    form select {
         width: 10em;
         height: 1.5em;
         font-size: 0.75em;
     }
-    form input[type="submit"]
-    {
+    form input[type="submit"] {
         height: 2em;
     }
-    form textarea
-    {
+    form textarea {
         width: 18em;
         font-size: 0.75em;
     }
@@ -108,44 +95,34 @@ form textarea
 
 /* Medium */
 @media all and (max-width: 800px) and (min-width: 301px) { 
-    section#main
-    {
+    section#main {
         width: 70%;
     }
-    
-    #main h1{
+    #main h1 {
         font-size: 2.5em;
     }
-    #main article h2
-    {
+    #main article h2 {
         font-size: 1em;
     }
-    form input
-    {
+    form input {
         width: 15em;
     }
-    form select
-    {
+    form select {
         width: 15em;
     }
-    form textarea
-    {
+    form textarea {
         width: 20em;
     }
 }
 
-
 /* Largest */
-@media all and (min-width:801px){
-    #main h1
-    {
+@media all and (min-width:801px) {
+    #main h1 {
         font-size: 2.75em;
     }
-    #main article h2
-    {
+    #main article h2 {
         font-size: 1.5em;
     }
 }
 
 /* END RESPONSIVE */
-
