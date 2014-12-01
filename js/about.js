@@ -16,7 +16,7 @@ var blurbs = [
     ],
     [
         "Ayse Akin", 
-        "Ayse Akin is a freshman majoring in Computer Science at Stevens Institute of Technology.",
+        "Ayse Akin is a freshman majoring in Computer Science at Stevens Institute of Technology. She likes acting like a child and watching Disney movies.",
         "./media/AA.png"
     ],
     [

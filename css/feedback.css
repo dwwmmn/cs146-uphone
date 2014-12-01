@@ -23,7 +23,7 @@ form h1 {
     font-size: 1.5em;
     float: left;
     text-align: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 5px 0px 0px;
 }
 
 form input {
@@ -60,10 +60,8 @@ form textarea {
     #main article h1{
         font-size: 0.5em;
     }
-    form select{
-        width: 10em;
-        height: 1em;
-        font-size: 0.5em;
+    section#main{
+        
     }
 }
 
