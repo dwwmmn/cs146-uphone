@@ -7,6 +7,17 @@
     <meta name='description' content='Take the uPhone survey.' />
     <link rel='stylesheet' href='css/sitewide.css' />
     <link rel='stylesheet' href='css/signup.css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <script type='text/javascript'>
+        function r()
+        {
+            if (document.getElementById('kek').checked) {
+                document.getElementById('smartdevice').style.display = "block";
+            } else {
+                document.getElementById('smartdevice').style.display = "none";
+            }
+        }
+    </script>
     <title>SIGN UP</title>
 </head>
 <body>
@@ -23,33 +34,45 @@
                 <article>
                     <p>Contact Information</p>
                     <ul id='contact'>
-                        <li> <label>First Name: </label> <input type='text' name='fname' /> </li>
-                        <li> <label>Last Name:  </label> <input type='text' name='lname' /> </li>
-                        <li> <label>Email:      </label> <input type='email' name='email'/> </li>
-                        <li> <label>Phone No.:  </label> <input type='text' name='phone' /> </li>
+                        <li> <label>First Name:</label> <input type='text' name='fname' /> </li>
+                        <li> <label>Last Name: </label> <input type='text' name='lname' /> </li>
+                        <li> <label>Email:     </label> <input type='email' name='email'/> </li>
+                        <li> <label>Phone No.: </label> <input type='text' name='phone' /> </li>
                     </ul>
                 </article>
 
                 <article>
                     <p>How old are you?</p>
-                    <ul>
-                        <li> <label> <input type='radio' name='age' value='lt10'/> &lt;10 </label> </li>
-                        <li> <label> <input type='radio' name='age' value='1018'/> 10-18  </label> </li>
-                        <li> <label> <input type='radio' name='age' value='1830'/> 18-30  </label> </li>
-                        <li> <label> <input type='radio' name='age' value='3050'/> 30-50  </label> </li>
-                        <li> <label> <input type='radio' name='age' value='gt50'/> &gt;50 </label> </li>
-                    </ul>
+                    <label> <input type='radio' name='age' value='lt10'/> &lt;10 years old</label><br />
+                    <label> <input type='radio' name='age' value='1018'/> 10-18  years old</label><br />
+                    <label> <input type='radio' name='age' value='1830'/> 18-30  years old</label><br />
+                    <label> <input type='radio' name='age' value='3050'/> 30-50  years old</label><br />
+                    <label> <input type='radio' name='age' value='gt50'/> &gt;50 years old</label><br />
                 </article>
 
                 <article>
                     <p>I am a... <i>(check all that apply)</i></p>
-                    <ul>
-                        <li> <label> <input type='checkbox' name='occupation' value='developer'/> Developer  </label> </li>
-                        <li> <label> <input type='checkbox' name='occupation' value='business' /> Businessman</label> </li>
-                        <li> <label> <input type='checkbox' name='occupation' value='manager'  /> Manager    </label> </li>
-                        <li> <label> <input type='checkbox' name='occupation' value='home'     /> Home User  </label> </li>
-                        <li> <label> <input type='checkbox' name='occupation' value='student'  /> Student    </label> </li>
-                    </ul>
+                    <label> <input type='checkbox' name='occupation' value='developer'/> Developer  </label><br />
+                    <label> <input type='checkbox' name='occupation' value='business' /> Businessman</label><br />
+                    <label> <input type='checkbox' name='occupation' value='manager'  /> Manager    </label><br />
+                    <label> <input type='checkbox' name='occupation' value='home'     /> Home User  </label><br />
+                    <label> <input type='checkbox' name='occupation' value='student'  /> Student    </label><br />
+                </article>
+
+                <article>
+                    <p>Do you already own a smart device?</p>
+                    <label> <input type='radio' id='kek' name='sd' value='yes' onclick="r()"/>Yes </label><br />
+                    <label> <input type='radio' name='sd' value='no'  onclick="r()" checked />No  </label><br />
+                </article>
+
+                <article id='smartdevice'>
+                    <p>What kind of smart device(s) do you own?</p>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='ipad'  />iPad          </label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='iphone'/>iPhone        </label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='at'    />Android Tablet</label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='ap'    />Android Phone </label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='wp'    />Windows Phone </label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='other' />Other         </label>
                 </article>
             </fieldset>
 
@@ -65,12 +88,17 @@
                     <li> <label> <input type='radio' name='occupation' value='46' /> 4.65" </label> </li>
                 </ul>
             </fieldset>
-            <input type='submit' name='submit' />
+            <input type='submit' name='submit' value='Submit'/>
         </form>
     </section>
     <footer>
         <nav>
             <ul>
+                <li>
+                    <a href='./index.html'>
+                        <img alt='home logo' src='media/home-logo.png' />Home
+                    </a>
+                </li>
                 <li>
                     <a href='http://www.facebook.com/dragonfruit'>
                         <img alt='facebook logo' src='media/facebook-logo.png' />Facebook
