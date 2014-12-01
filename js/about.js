@@ -2,7 +2,7 @@ var blurbs = [
     ["Drew Malzahn", "Drew is good at computers, sort of.", "./media/DM.png"],
     ["Shawn Fodor" , "Shawn is good at Photoshop."        , "./media/SF.jpg"],
     ["Henry Paul"  , "Henry is good at CSS."              , "./media/HP.jpg"],
-    ["Ayse Akin"   , "Ayse is good at CSS, too!"          , "./media/ayse-employee.jpg"],
+    ["Ayse Akin"   , "Ayse is good at CSS, too!"          , "./media/AA.jpg"],
     ["Ali Smith"   , "Ali is good at HTML."               , "./media/HP.jpg"]
 ];
 var blurblen = 5;
