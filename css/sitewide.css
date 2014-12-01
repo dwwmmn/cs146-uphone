@@ -91,7 +91,7 @@ footer a:link {
 }
 
 footer a:visited {
-    color: #4f3b26;
+    color: #e9e233;
 }
 
 /* END FOOTER */
@@ -127,15 +127,13 @@ footer a:visited {
         font-size: 2em;
         background-image: none;
         padding-left: 0px;
-
     }
-
 
     #main article h1 {
         font-size: 1.5em;
     }
 
-    img {
+    footer img {
         display: none;
     }
     

@@ -89,6 +89,10 @@ p {
     {
         width: 70%;
     }
+    img
+    {
+        display: none;
+    }
 }
 
 /* Largest */

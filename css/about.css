@@ -51,13 +51,28 @@ button {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) {
-    article h1 { font-size: 2.0em; } 
+@media all and (max-width: 300px) 
+{
+    article h1 { font-size: 2.0em; }
+    section#main 
+    {
+        width: 80%;
+    }
+    #pictures p {
+    width: 50%;
+    text-align: center;
+    margin: auto auto;
+}
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 301px) {
+@media all and (max-width: 800px) and (min-width: 301px) 
+{
     article h1 { font-size: 2.5em; }
+    section#main 
+    {
+        width: 60%;
+    }
 }
 
 /* Largest */
