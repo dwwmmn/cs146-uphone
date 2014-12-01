@@ -53,6 +53,7 @@ p, label {
 
 article>p {
     font-weight: bold;
+    padding: 5px 5px 5px 5px;
 }
 
 article label {
@@ -62,13 +63,14 @@ article label {
 fieldset>label {
     font-family: 'Roboto Slab', serif;
     color: #4f3b26;
-    font-size: 3.0em;
+    font-size: 2.25em;
     vertical-align: middle;
 }
 
 input[type='text'] {
     margin: 3px 3px 3px 3px;
 }
+
 input[type='email'] {
     margin: 3px 3px 3px 3px;
 }

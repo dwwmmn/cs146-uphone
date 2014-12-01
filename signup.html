@@ -34,10 +34,10 @@
                 <article>
                     <p>Contact Information</p>
                     <ul id='contact'>
-                        <li> <label>First Name:</label> <input type='text' name='fname' /> </li>
-                        <li> <label>Last Name: </label> <input type='text' name='lname' /> </li>
-                        <li> <label>Email:     </label> <input type='email' name='email'/> </li>
-                        <li> <label>Phone No.: </label> <input type='text' name='phone' /> </li>
+                        <li> <label>First Name:</label> <input type='text' name='fname' required /> </li>
+                        <li> <label>Last Name: </label> <input type='text' name='lname'          /> </li>
+                        <li> <label>Email:     </label> <input type='email' name='email'required /> </li>
+                        <li> <label>Phone No.: </label> <input type='text' name='phone'          /> </li>
                     </ul>
                 </article>
 
@@ -67,12 +67,12 @@
 
                 <article id='smartdevice'>
                     <p>What kind of smart device(s) do you own?</p>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='ipad'  />iPad          </label>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='iphone'/>iPhone        </label>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='at'    />Android Tablet</label>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='ap'    />Android Phone </label>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='wp'    />Windows Phone </label>
-                    <label> <input type='checkbox' name='smartdeviceoption' value='other' />Other         </label>
+                    <label> <input type='checkbox' name='smartdeviceoption' value='ipad'  />iPad          </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption' value='iphone'/>iPhone        </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption' value='at'    />Android Tablet</label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption' value='ap'    />Android Phone </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption' value='wp'    />Windows Phone </label><br />
+                    <label> <input type='checkbox' name='smartdeviceoption' value='other' />Other         </label><br />
                 </article>
             </fieldset>
 
@@ -81,12 +81,12 @@
 
                 <p>In this section, we will explore sizing options. </p><br />
 
-                <p>What is your preferred size?</p>
-                <ul>
-                    <li> <label> <input type='radio' name='occupation' value='35' /> 3.5"  </label> </li>
-                    <li> <label> <input type='radio' name='occupation' value='37' /> 3.7"  </label> </li>
-                    <li> <label> <input type='radio' name='occupation' value='46' /> 4.65" </label> </li>
-                </ul>
+                <article>
+                    <p>What is your preferred size?</p>
+                    <label> <input type='radio' name='occupation' value='35' /> 3.5"  </label><br />
+                    <label> <input type='radio' name='occupation' value='37' /> 3.7"  </label><br />
+                    <label> <input type='radio' name='occupation' value='46' /> 4.65" </label><br />
+                </article>
             </fieldset>
             <input type='submit' name='submit' value='Submit'/>
         </form>
