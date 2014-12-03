@@ -57,7 +57,7 @@ button {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) 
+@media all and ( max-width: 599px ) 
 {
     article h1 { font-size: 2.0em; }
     section#main 
@@ -72,7 +72,7 @@ button {
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 301px) 
+@media all and ( min-width: 600px ) and ( max-width: 1023px ) {
 {
     article h1 { font-size: 2.5em; }
     section#main 
@@ -83,7 +83,7 @@ button {
 }
 
 /* Largest */
-@media all and (min-width:801px) and (max-width: 1500px)
+@media all and ( min-width: 1024px ) {
 {
     article h1 { font-size: 2.75em; }
 }

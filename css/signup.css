@@ -81,7 +81,7 @@ form input[type="submit"]
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) {
+@media all and ( min-width: 0px ) and ( max-width: 599px ) {
     section#main
     {
         width: 90%;
@@ -107,7 +107,7 @@ form input[type="submit"]
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 301px) {
+@media all and ( min-width 600px ) and ( max-width: 1023px ) {
     section#main
     {
         width: 70%;
@@ -127,7 +127,7 @@ form input[type="submit"]
 }
 
 /* Largest */
-@media all and (min-width:801px) and (max-width: 1500px)
-{
+@media all and ( min-width: 1024px ) {
+
 }
 /* END RESPONSIVE */

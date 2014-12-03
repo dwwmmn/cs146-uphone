@@ -71,7 +71,7 @@ p {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (max-width: 300px) {
+@media all and (min-width: 0px) and ( max-width: 599px ) {
     article h1 { font-size: 2.0em; }
     #signup { font-size: 3.0em; }    
     section#main
@@ -82,7 +82,7 @@ p {
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 301px) {
+@media all and ( min-width: 600px ) and ( max-width: 1023px ) {
     article h1 { font-size: 2.5em; }
     #signup { font-size: 3.3em; }     
     section#main
@@ -96,8 +96,7 @@ p {
 }
 
 /* Largest */
-@media all and (min-width:801px) and (max-width: 1500px)
-{
+@media all and ( min-width: 1024px ) {
     article h1 { font-size: 2.75em; }
     #signup { font-size: 4.0em; }
 }

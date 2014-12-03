@@ -99,7 +99,7 @@ footer a:visited {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (min-width: 0px) and (max-width: 400px) {
+@media all and (min-width: 0px ) and (max-width: 599px ) {
     header h1 {
         font-size: 1.5em;
         padding-left: 0px;
@@ -136,7 +136,7 @@ footer a:visited {
 }
 
 /* Medium */
-@media all and (max-width: 800px) and (min-width: 401px) {
+@media all and ( min-width: 600px ) and ( max-width: 1023px ) {
     header h1 {
         font-size: 1.8em;
         background-image: none;
@@ -150,13 +150,10 @@ footer a:visited {
     footer img {
         display: none;
     }
-    
-
 }
 
 /* Largest */
-@media all and (min-width:800px) and (max-width: 1500px)
-{
+@media all and ( min-width: 1024px ) {
     header h1
     {
         font-size: 4em;
