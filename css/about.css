@@ -47,7 +47,7 @@ button {
 }
 
 #pictures p {
-    width: 40%;
+    width: 55%;
     text-align: center;
     margin: auto auto;
 }
@@ -79,6 +79,7 @@ button {
     {
         width: 60%;
     }
+
 }
 
 /* Largest */
