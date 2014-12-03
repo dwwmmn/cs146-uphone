@@ -38,8 +38,9 @@ p {
 }
 
 button {
-    width: 30px;
-    height: 30px;
+    border: none !important;
+    background: transparent;
+    font-size: 2.0em;
 }
 
 #pictures {

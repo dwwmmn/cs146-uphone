@@ -6,7 +6,7 @@
 	src: url('../media/corecircus.otf')
 }
 
-*{
+* {
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -99,7 +99,7 @@ footer a:visited {
 /* RESPONSIVE */
 
 /* Smallest */
-@media all and (min-width: 0px ) and (max-width: 599px ) {
+@media all and (min-width: 0px ) and ( max-width: 599px ) {
     header h1 {
         font-size: 1.5em;
         padding-left: 0px;
@@ -165,10 +165,8 @@ footer a:visited {
     header section { width: 70%; }
     section#main { width: 60% } 
 
-    #main article h1
-    {
+    #main article h1 {
         font-size: 2.5em;
     }
 }
-
 /* END RESPONSIVE */
